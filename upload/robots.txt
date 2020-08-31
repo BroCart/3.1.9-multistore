@@ -1,0 +1,55 @@
+User-agent: *
+Disallow: /*li_op=
+Disallow: /*tag=
+Disallow: /*search=
+Disallow: /*manufacturer_id=
+Disallow: /*sort=
+Disallow: /*order=
+Disallow: /*limit=
+Disallow: /*filter_name=
+Disallow: /*filter_sub_category=
+Disallow: /*filter_description=
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.png*
+Allow: /*.jpg*
+Allow: /*.jpeg*
+Allow: /*.html*
+
+Disallow: */search*
+Disallow: */price-*
+Disallow: *limit*
+Disallow: *admin*
+Disallow: /cart/
+Disallow: /zakaz/
+Disallow: /compare-products/
+Disallow: /register/
+Disallow: /add-return/
+Disallow: /forgot-password/
+Disallow: /login/
+Disallow: /filter*
+Disallow:/index.php?route=product/search
+Disallow:/*?filter_name=
+Disallow:/*&filter_name=
+Disallow:/*?filter_ocfilter=
+Disallow:/*&filter_ocfilter=
+Disallow:/*?filter_sub_category=
+Disallow:/*&filter_sub_category=
+Disallow:/*?filter_description=
+Disallow:/*&filter_description=
+Disallow:/download
+Disallow:/system
+
+Disallow:/index.php?route=product/compare
+
+Disallow:/*?sort=
+Disallow:/*&sort=
+Disallow:/*?order=
+Disallow:/*&order=
+Disallow:/*?limit=
+Disallow:/*&limit=
+Disallow:/*?tracking=
+Disallow:/*&tracking=
+
+#Host: site.com
+#Sitemap: https://www.site.com/sitemap.xml
