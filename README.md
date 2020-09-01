@@ -9,7 +9,7 @@ CMS BroCart - SEO скрипт интернет-магазина
 
 [![Статус дистрибутива](https://www.brocart.net/rel1.svg?style=flat)](https://github.com/BroCart/3.1.9)
 
-[![Всего скачиваний](https://www.brocart.net/downloads.svg?style=flat)](https://www.brocart.net)
+[![Всего скачиваний](https://www.brocart.net/downloads1.svg?style=flat)](https://www.brocart.net)
 
 [![Лицензия](https://www.brocart.net/lic.svg?style=flat)](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
 
