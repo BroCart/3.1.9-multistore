@@ -3,11 +3,11 @@ CMS BroCart - SEO скрипт интернет-магазина
 Легкая установка и простое использование
 
 ## Состояние проекта
-[![PHP >= 7.3+](https://www.brocart.net/php.svg?style=flat)](https://php.net/)
+[![PHP >= 7.3+](https://www.brocart.net/php1.svg?style=flat)](https://php.net/)
 
-[![Последняя стабильная версия](https://www.brocart.net/ver.svg?label=version&style=flat)](https://www.brocart.net/33-zavantazhyty/58-zavantazhyty-zbirku-brocart)
+[![Последняя стабильная версия](https://www.brocart.net/ver1.svg?label=version&style=flat)](https://www.brocart.net/33-zavantazhyty/58-zavantazhyty-zbirku-brocart)
 
-[![Статус дистрибутива](https://www.brocart.net/rel.svg?style=flat)](https://github.com/BroCart/BroCart-v3.1.9-MULTISTORE)
+[![Статус дистрибутива](https://www.brocart.net/rel1.svg?style=flat)](https://github.com/BroCart/3.1.9)
 
 [![Всего скачиваний](https://www.brocart.net/downloads.svg?style=flat)](https://www.brocart.net)
 
