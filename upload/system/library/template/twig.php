@@ -20,12 +20,13 @@ final class Twig {
 		}
 
 		// initialize Twig environment
-		$config = array(
+		$config = [
+			'charset'     => 'utf-8',
 			'autoescape'  => false,
 			'debug'       => false,
 			'auto_reload' => true,
 			'cache'       => DIR_CACHE . 'template/'
-		);
+		];
 		
 		try {
 			$loader = new \Twig\Loader\ArrayLoader(array($filename . '.twig' => $code));
