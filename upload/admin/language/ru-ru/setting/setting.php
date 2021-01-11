@@ -142,8 +142,10 @@ $_['entry_seo_url_prefix_help'] = 'Например ' . HTTPS_CATALOG . 'ua/';
 $_['entry_seo_url_syfix']		 	   = 'SEO окончание для категорий, производителей';
 $_['entry_seo_url_syfix_help'] = 'Например /';
 $_['entry_hide_field']				 = 'Скрыть поля';
+$_['entry_login_pass']				   = 'Выслать логин и пароль:';
 
 // Help
+$_['help_login_pass']				   = 'Высылать логин и пароль после регистрации на e-mail';
 $_['help_hidden']					 = 'Данная настройка скрывает поля в карте товара';
 $_['help_geocode']                   = 'Пожалуйста, введите ваше местонахождение как GeoCode.';
 $_['help_open']                      = 'Режим работы вашего магазина.';
