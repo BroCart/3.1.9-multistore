@@ -6,14 +6,20 @@
 {{ login }}
 
 {{ text_service }}
-
+{% if text_logged AND text_password %}
+{{ text_logged }}
+{{ text_password }}
+{% endif %}
 {{ text_thanks }}
 {{ store }}
 {% else %}
 {{ text_approval }}
 
 {{ login }}
-
+{% if text_logged AND text_password %}
+{{ text_logged }}
+{{ text_password }}
+{% endif %}
 {{ text_thanks }}
 {{ store }}
 {% endif %}
