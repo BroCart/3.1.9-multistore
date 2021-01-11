@@ -13,3 +13,5 @@ $_['text_firstname']      = 'Имя, Отчество:';
 $_['text_lastname']       = 'Фамилия:';
 $_['text_email']          = 'E-Mail:';
 $_['text_telephone']      = 'Телефон:';
+$_['text_logged']		  = 'Ваш логин:';
+$_['text_password']		  = 'Ваш пароль:';
