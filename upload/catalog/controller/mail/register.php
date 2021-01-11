@@ -8,6 +8,15 @@ class ControllerMailRegister extends Controller {
 		$data['text_approval'] = $this->language->get('text_approval');
 		$data['text_service'] = $this->language->get('text_service');
 		$data['text_thanks'] = $this->language->get('text_thanks');
+		
+		$send_login_pass = $this->config->get('config_mail_login_pass');
+		if ($send_login_pass && isset($args[0]['email']) && isset($args[0]['password'])) {
+			$data['text_logged'] = $this->language->get('text_logged') . ' ' .$args[0]['email'];
+           		$data['text_password'] = $this->language->get('text_password') . ' ' .$args[0]['password'];
+		} else {
+			$data['text_logged'] = false;
+            		$data['text_password'] = false;
+		}
 
 		$this->load->model('account/customer_group');
 			
