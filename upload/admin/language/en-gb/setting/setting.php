@@ -32,7 +32,10 @@ $_['text_general']                   = 'General';
 $_['text_security']                  = 'Security';
 $_['text_upload']                    = 'Uploads';
 $_['text_error']                     = 'Error Handling';
-$_['text_market']					 = 'Server BroCart';
+$_['text_market']					           = 'Server BroCart';
+$_['text_seo_checkout']				       = 'Simple oreder';
+$_['text_seo_url']					         = 'Default';
+$_['text_seo_bro']					         = 'SEO BRO';
 
 // Entry
 $_['entry_meta_title']               = 'Meta Title';
@@ -125,12 +128,8 @@ $_['entry_error_display']            = 'Display Errors';
 $_['entry_error_log']                = 'Log Errors';
 $_['entry_error_filename']           = 'Error Log Filename';
 $_['entry_status']                   = 'Status';
-$_['text_seo_checkout']				   = 'Simple oreder';
-$_['text_seo_url']					   = 'Default';
-$_['text_seo_bro']					   = 'SEO BRO';
 $_['entry_seo_url_type']			   = 'SEO type:';
 $_['entry_seo_url_one']				   = 'URL main:';
-$_['help_seo_url_one'] = 'URL only config language (with prefix) as old versions';
 $_['entry_seo_url_include_path']	   = 'SEO in hierarchy:';
 $_['entry_seo_url_include_path_help'] = '<b>Full</b> - full category path and product</br> <b>Last</b> - last category in product and category URL</br> <b>None</b> - without additional URL (product and category with site URL)';
 $_['entry_seo_url_postfix'] = 'SEO postfix';
@@ -142,8 +141,11 @@ $_['entry_seo_url_prefix_help'] = 'Example as ' . HTTPS_CATALOG . 'ua/';
 $_['entry_seo_url_syfix']		 	   = 'SEO syfix for category, manufacturer';
 $_['entry_seo_url_syfix_help'] = 'Example as /';
 $_['entry_hide_field']				 = 'Hide fields';
+$_['entry_login_pass']				   = 'Send login and password:';
 
 // Help
+$_['help_seo_url_one'] = 'URL only config language (with prefix) as old versions';
+$_['help_login_pass']				   = 'Send login and password to client after registration by e-mail';
 $_['help_hidden']					 = 'This setting hides fields in the product card';
 $_['help_geocode']                   = 'Please enter your store location geocode manually.';
 $_['help_open']                      = 'Fill in your store\'s opening times.';
