@@ -192,9 +192,9 @@ class ControllerProductSearch extends Controller {
 				'limit'               => $limit
 			);
 
-			$results = $this->model_catalog_product->getProducts($filter_data);
+			$product_total = $this->model_catalog_product->getTotalProducts($filter_data);
 			
-			$product_total = $this->model_catalog_product->getProTotal();
+			$results = $this->model_catalog_product->getProducts($filter_data);
 			
 			if ($product_total && $limit && $page > 1) {
 				if (!isset($this->session->data['maxpage'])) {	
