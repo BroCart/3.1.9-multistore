@@ -174,7 +174,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 /* Mobile */
 @media (max-width: 767px) {
 #column-left {
-	overflow: hidden;
+	overflow: auto;
 	display: none;
 }
 #column-left + #content {
